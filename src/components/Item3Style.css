@@ -1,0 +1,13 @@
+.data-3{
+    color: white;
+    text-align: center;
+    margin: 40px 0px;
+}
+.air-condition{
+    margin-top: 40px;
+}
+.air-data{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}

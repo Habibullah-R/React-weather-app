@@ -1,0 +1,17 @@
+.next-days{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+    margin-inline: auto;
+    border-bottom: 1px solid #7286ff;
+}
+.next-days p{
+    width: 92px;
+}
+@media screen and (max-width:375px) {
+    .next-days{
+        width: 97%;
+    }
+}

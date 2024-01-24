@@ -1,0 +1,13 @@
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+    justify-content: space-around;
+    color: white;
+}
+.first,
+.second
+{
+    text-align: center;
+}
