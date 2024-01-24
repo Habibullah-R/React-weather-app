@@ -8,7 +8,8 @@ import Item5  from '../components/Item5'
 import Loader from '../components/Loader'
 
 
-const BASE_URL = 'https://weatherapi-com.p.rapidapi.com/forecast.json'
+const BASE_URL = import.meta.env.VITE_BASE_URL;
+console.log(import.meta.env.VITE_BASE_URL)
 
 const options = {
   method: 'GET',
@@ -17,7 +18,7 @@ const options = {
     days:'4'
   },
   headers: {
-    'X-RapidAPI-Key': 'a969d53846msh1b7ffea1996dbccp1dd1e4jsn2cece6e14a21',
+    'X-RapidAPI-Key': import.meta.env.VITE_BASE_KEY,
     'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
   }
 };
